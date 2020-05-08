@@ -1,11 +1,11 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'Logger'
+  s.name             = 'Logging'
   s.version          = '1.0.0'
   s.summary          = 'A short description of MPCKit.'
 
   s.description      = <<-DESC
-  iOS bridge to work with JS mpc-lib
+  Apple-Logging 
   DESC
 
   s.homepage         = 'https://github.com/copperexchange/mpc-lib-ios'
@@ -14,8 +14,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/artoymsd/swift-log.git', :tag => s.version.to_s }
 
   s.swift_version = '5.0'
-
-  s.frameworks = "UIKit"
 
   s.source_files  = "Sources/**/*.swift"
   s.exclude_files = "Sources/**/*.plist"
